@@ -1,0 +1,10 @@
+{
+  "name": "ratp-lighthouse-recipe",
+  "private": true,
+  "scripts": {
+    "lighthouse": "lighthouse --config-path=custom-config.js --view http://localhost:8887"
+  },
+  "devDependencies": {
+    "lighthouse": "^2.x"
+  }
+}
